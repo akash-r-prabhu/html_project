@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+/* html{
+    background-color: black;
+} */
+.clearfix::after 
+  {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.navbar > p 
+    {
+        font-size: 30px;
+        margin: auto;
+    }
+.movies_tile > img
+    {
+        width: 300px;
+        height: 400px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(71, 42, 71);
+
+    }
+#logo
+    {
+      position: relative;
+      width: 70px;
+      height: 70px;
+    
+    }
+#main_header
+    {
+        font-size: 45px;
+        /* margin-left: 45%; */
+        display: inline;
+    }
+a 
+    {
+      color: black;
+      text-decoration: none;
+    }
+
+body h2
+    {
+        font-size: 30px;
+        margin-left: 45%;
+    }
+ul
+    {
+      list-style: none;
+      float: right;
+    }
+#mode_change_button
+    {
+      background-color:rgb(65,55,55);
+      color: white;
+      width: 400px;
+      height: 50px;
+      border-radius: 20px;
+    }
